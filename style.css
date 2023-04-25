@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    overflow: none;
+
+}
+
+header {
+    background-image: url(https://scontent.fjdo10-1.fna.fbcdn.net/v/t39.30808-6/271814675_4565466043562407_4665168564013437927_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeH05Y9d7omXQjnxWvQW7lf5ZS2KpFNMguJlLYqkU0yC4pTO0nT_E_GnKCMzbZgaqo2GpO37rwDV063NoSW3UbNC&_nc_ohc=KMaGWdQ1ykAAX-gCO66&_nc_ht=scontent.fjdo10-1.fna&oh=00_AfDuh7PvqbqE3OS8aUUEXxRFKfDcBw5NSMfqzYKdtqudVQ&oe=64474839);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ul-1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    background-color: #5f246b;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.li-1 {
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 16px;
+    height: 0;
+
+}
+
+.li-1:active{
+    color: #000;
+}
+
+
+li:hover {
+    text-decoration: underline;
+    color: #e50071;
+}
+
+.botao-ingressos {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 190px;
+    height: 40px;
+    background-color: #69A83A;
+    color: #fff;
+    border: none;
+    margin-top: 1.50rem;
+    font-size: 14px;
+}
+
+.botao-ingressos:hover {
+    background-color: #e50071;
+    box-shadow: #e50071 4px 3px 10px;
+}
+
+.botao-ingressos:active{
+    color: #000;
+}
+
+.sessao {
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+}
+
+.foto-dois {
+    width: 50%;
+}
+
+h2 {
+    color: #fff;
+    font-size: 60px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: 60px;
+}
+
+.videoexpo {
+    width: 35%;
+    height: 60%;
+    display: inline-block;
+    border-radius: 150px;
+    display: none;
+
+}
+
+.paragrafo-um {
+    margin: auto;
+    display: inline-block;
+}
+
+#paragrafo {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    width: 80%;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+
+.videos {
+    display: inline-block;
+}
+
+#link-clica {
+    color: #69A83A;
+    display: inline-block;
+    position: relative;
+    bottom: 260px;
+    left: 200px;
+    cursor: pointer;
+}
+
+#link-clica:hover {
+    text-decoration: underline;
+    color: #fff;
+    box-shadow: #e50071 4px 3px 130px;
+}
+
+#link-clica:active{
+    color: #e50071;
+}
+
+.video-festival {
+    display: inline-block;
+    margin: auto;
+    width: 21%;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: #5f246b;
+    margin-left: 90px;
+}
+
+.destaque {
+    font-size: 60px;
+    color: #5f246b;
+    margin-top: 50px;
+    padding: 60px;
+}
+
+.ul-2 {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+}
+
+footer {
+    background-color: #5f246b;
+    background-image: url(https://wisynco.com/wp-content/uploads/2014/12/footer-background-011.jpg);
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.link-footer {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+}
+
+.li-3 {
+    color: #69A83A;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+    header{
+        width: 190vw;
+        height: 54vh;
+        background-size: 100%;
+        padding: 2px;
+    }
+
+    .ul-1{
+        gap: 18px;
+        height: 70px;
+        width: 190vw;
+    }
+
+    .li-1{
+        font-size: 17px;
+    }
+
+    .sessao{
+        width: 190vw;
+        height: 1400px;
+    }
+
+    h2{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .video-festival{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    #paragrafo{
+        top:900px;
+        left: 80px;
+        width: 100%;
+        position: relative;
+    }
+
+    #link-clica{
+        position: relative;
+        top: 960px;
+        left: 80px;
+    }
+
+    .sessao-destaques{
+        width: 675px;
+    }
+
+    .ul-2{
+        display: inline-block;
+        padding: 90px;
+    }
+
+    h4{
+        margin: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sessao-destaques{
+        width: 180vw;
+    }
+
+    footer{
+        width: 180vw;
+        height: 200px;
+    }
+
+}
